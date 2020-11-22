@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>简易计算器</title>
+    <link rel="stylesheet" type="text/css" href="../9.简易计算器/css/css1.css">
+</head>
+
+<body>
+    <!--在div里面创建一个表格用来作为计算器的按键使用-->
+    <div id="div">
+        <!--这个id用来设置计算器面板的样式-->
+        <table>
+            <tr>
+                <td colspan="3" id="jg"></td>
+                <!--这里作为显示使用-->
+                <td id="tg">清空</td>
+                <!--加退格功能-->
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>/</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>+</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>-</td>
+
+            </tr>
+            <tr>
+                <td>%</td>
+                <td>0</td>
+                <td id="dy">=</td>
+                <!--准备给等于号单独设置点击事件并调用方法-->
+                <td>*</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="../9.简易计算器/js/js1.js"></script>
+</body>
+
+</html>

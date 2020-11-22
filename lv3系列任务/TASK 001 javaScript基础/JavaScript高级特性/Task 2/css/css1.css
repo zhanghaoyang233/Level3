@@ -1,0 +1,14 @@
+span {
+    display: inline-block;
+    margin: 100px 5px;
+    padding: 0px 10px;
+    background-color: red;
+    cursor: pointer;
+    transition: height 2s;
+}
+
+#queue {
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
+}

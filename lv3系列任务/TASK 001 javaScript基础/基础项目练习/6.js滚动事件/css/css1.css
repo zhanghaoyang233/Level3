@@ -1,0 +1,37 @@
+.div1 {
+    width: 700px;
+    height: 7000px;
+    background: cornsilk;
+}
+
+.child1 {
+    width: 100px;
+    height: 100px;
+    background: skyblue;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+}
+
+.ani {
+    animation: suofang 1s alternate infinite;
+}
+
+@keyframes suofang {
+    from {
+        transform: scale(1);
+        /*定义2D缩放旋转*/
+    }
+    to {
+        transform: scale(5);
+    }
+}
+
+.child2 {
+    width: 100px;
+    height: 100px;
+    background: skyblue;
+    position: absolute;
+    left: 50%;
+    top: 4000px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>动态创建标记</title>
+</head>
+
+<body>
+    <div id="m1"></div>
+    <div id="m2"></div>
+    <script>
+        window.onload = function() {
+
+
+
+        }
+        window.onload = function() {
+            var s1 = document.createElement("p");
+            var s2 = document.createTextNode("Hello world");
+            s1.appendChild(s2);
+            var s3 = document.getElementById("m1");
+            //s3.innerHTML = "sssssss";这句话可以修改s3里面的值 
+            //alert(s3.innerHTML); //返回了m1的div里面的内容
+            s3.appendChild(s1); //appendChild不需要打“”
+            //一般不推荐使用innerHtml和documen.write//违背了行为和表现分离
+            /*-------------------------------------------------*/
+            var a1 = document.createElement("p");
+            var a4 = document.createTextNode("This is");
+            a1.appendChild(a4);
+            var a2 = document.createElement("em");
+            var a3 = document.createTextNode("23333333");
+            a2.appendChild(a3);
+            a1.appendChild(a2);
+            var a5 = document.createTextNode(".");
+            a1.appendChild(a5);
+            var a6 = document.getElementById("m2");
+            a6.appendChild(a1);
+        }
+    </script>
+</body>
+
+</html>

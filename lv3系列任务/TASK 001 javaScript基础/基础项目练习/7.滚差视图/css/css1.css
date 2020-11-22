@@ -1,0 +1,17 @@
+.layerWrap {
+    transform-style: preserve-3d;
+}
+
+.banner-row .layer {
+    position: absolute;
+}
+
+.banner-row .layer img {
+    width: 800px;
+}
+
+.banner-row {
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto;
+}

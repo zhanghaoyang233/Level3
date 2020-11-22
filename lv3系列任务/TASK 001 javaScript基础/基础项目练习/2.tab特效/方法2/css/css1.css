@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    float: left;
+}
+
+#tabCon {
+    clear: both;
+}
+
+#tabCon div {
+    display: none;
+}
+
+#tabCon div.fdiv {
+    display: block;
+}

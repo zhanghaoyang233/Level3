@@ -1,0 +1,13 @@
+span {
+    display: inline-block;
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+
+#queue {
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+}
